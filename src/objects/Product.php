@@ -319,6 +319,13 @@ class Product
     public $monthlySold = null;
 
     /**
+     * Contains monthly sold histories.
+     * @var array|null
+     */
+     *
+    public $monthlySoldHistory = null;
+
+    /**
      * Whether or not the product is eligible for super saver shipping by Amazon (not FBA).
      * @var bool
      */
